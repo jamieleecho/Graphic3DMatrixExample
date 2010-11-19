@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.m */; };
+		522922DF12943FE20090C427 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522922D912943FE10090C427 /* Exception.cpp */; };
+		522922E012943FE20090C427 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522922DB12943FE20090C427 /* Matrix.cpp */; };
+		522922E112943FE20090C427 /* MatrixSpecializations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 522922DD12943FE20090C427 /* MatrixSpecializations.cpp */; };
+		522922E212943FE20090C427 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 522922DE12943FE20090C427 /* README */; };
+		522922E4129440090090C427 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522922E3129440090090C427 /* Accelerate.framework */; };
+		522922F3129440860090C427 /* JCPolygon.mm in Sources */ = {isa = PBXBuildFile; fileRef = 522922F2129440860090C427 /* JCPolygon.mm */; };
+		52292300129442B90090C427 /* JCPolygonSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = 522922FF129442B90090C427 /* JCPolygonSet.mm */; };
+		5229233E129453770090C427 /* JCWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5229233D129453770090C427 /* JCWorld.mm */; };
+		5229234F129456EE0090C427 /* JCWorldView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5229234E129456EE0090C427 /* JCWorldView.mm */; };
+		526B4B891295ACA3005B2C59 /* JCGraphic3DWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 526B4B881295ACA3005B2C59 /* JCGraphic3DWindowController.mm */; };
+		526B4C8D12960401005B2C59 /* JCObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 526B4C8C12960401005B2C59 /* JCObject.mm */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphic3DMatrixExampleAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphic3DMatrixExampleAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* Graphic3DMatrixExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphic3DMatrixExample_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		522922D912943FE10090C427 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		522922DA12943FE20090C427 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		522922DB12943FE20090C427 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix.cpp; sourceTree = "<group>"; };
+		522922DC12943FE20090C427 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		522922DD12943FE20090C427 /* MatrixSpecializations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixSpecializations.cpp; sourceTree = "<group>"; };
+		522922DE12943FE20090C427 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		522922E3129440090090C427 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		522922F1129440860090C427 /* JCPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPolygon.h; sourceTree = "<group>"; };
+		522922F2129440860090C427 /* JCPolygon.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCPolygon.mm; sourceTree = "<group>"; };
+		522922FE129442B90090C427 /* JCPolygonSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPolygonSet.h; sourceTree = "<group>"; };
+		522922FF129442B90090C427 /* JCPolygonSet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCPolygonSet.mm; sourceTree = "<group>"; };
+		5229233C129453770090C427 /* JCWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCWorld.h; sourceTree = "<group>"; };
+		5229233D129453770090C427 /* JCWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCWorld.mm; sourceTree = "<group>"; };
+		5229234D129456EE0090C427 /* JCWorldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCWorldView.h; sourceTree = "<group>"; };
+		5229234E129456EE0090C427 /* JCWorldView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCWorldView.mm; sourceTree = "<group>"; };
+		526B4B871295ACA3005B2C59 /* JCGraphic3DWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGraphic3DWindowController.h; sourceTree = "<group>"; };
+		526B4B881295ACA3005B2C59 /* JCGraphic3DWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCGraphic3DWindowController.mm; sourceTree = "<group>"; };
+		526B4C8B12960401005B2C59 /* JCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCObject.h; sourceTree = "<group>"; };
+		526B4C8C12960401005B2C59 /* JCObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCObject.mm; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Graphic3DMatrixExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Graphic3DMatrixExample-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Graphic3DMatrixExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphic3DMatrixExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				522922E4129440090090C427 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52292343129456AA0090C427 /* Model */,
+				52292344129456B40090C427 /* View */,
+				52292345129456BE0090C427 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				522922E3129440090090C427 /* Accelerate.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Graphic3DMatrixExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Graphic3DMatrixExample */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				522922DE12943FE20090C427 /* README */,
+			);
+			name = Graphic3DMatrixExample;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				522922D912943FE10090C427 /* Exception.cpp */,
+				522922DA12943FE20090C427 /* Exception.h */,
+				522922DB12943FE20090C427 /* Matrix.cpp */,
+				522922DC12943FE20090C427 /* Matrix.h */,
+				522922DD12943FE20090C427 /* MatrixSpecializations.cpp */,
+				256AC3F00F4B6AF500CF3369 /* Graphic3DMatrixExample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Graphic3DMatrixExample-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52292343129456AA0090C427 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				522922F1129440860090C427 /* JCPolygon.h */,
+				522922F2129440860090C427 /* JCPolygon.mm */,
+				522922FE129442B90090C427 /* JCPolygonSet.h */,
+				522922FF129442B90090C427 /* JCPolygonSet.mm */,
+				5229233C129453770090C427 /* JCWorld.h */,
+				5229233D129453770090C427 /* JCWorld.mm */,
+				526B4C8B12960401005B2C59 /* JCObject.h */,
+				526B4C8C12960401005B2C59 /* JCObject.mm */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52292344129456B40090C427 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5229234D129456EE0090C427 /* JCWorldView.h */,
+				5229234E129456EE0090C427 /* JCWorldView.mm */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52292345129456BE0090C427 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.m */,
+				526B4B871295ACA3005B2C59 /* JCGraphic3DWindowController.h */,
+				526B4B881295ACA3005B2C59 /* JCGraphic3DWindowController.mm */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Graphic3DMatrixExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Graphic3DMatrixExample" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graphic3DMatrixExample;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Graphic3DMatrixExample;
+			productReference = 8D1107320486CEB800E47090 /* Graphic3DMatrixExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Graphic3DMatrixExample" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Graphic3DMatrixExample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Graphic3DMatrixExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				522922E212943FE20090C427 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* Graphic3DMatrixExampleAppDelegate.m in Sources */,
+				522922DF12943FE20090C427 /* Exception.cpp in Sources */,
+				522922E012943FE20090C427 /* Matrix.cpp in Sources */,
+				522922E112943FE20090C427 /* MatrixSpecializations.cpp in Sources */,
+				522922F3129440860090C427 /* JCPolygon.mm in Sources */,
+				52292300129442B90090C427 /* JCPolygonSet.mm in Sources */,
+				5229233E129453770090C427 /* JCWorld.mm in Sources */,
+				5229234F129456EE0090C427 /* JCWorldView.mm in Sources */,
+				526B4B891295ACA3005B2C59 /* JCGraphic3DWindowController.mm in Sources */,
+				526B4C8D12960401005B2C59 /* JCObject.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Graphic3DMatrixExample_Prefix.pch;
+				INFOPLIST_FILE = "Graphic3DMatrixExample-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Graphic3DMatrixExample;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Graphic3DMatrixExample_Prefix.pch;
+				INFOPLIST_FILE = "Graphic3DMatrixExample-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Graphic3DMatrixExample;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Headers;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Headers;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Graphic3DMatrixExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Graphic3DMatrixExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
