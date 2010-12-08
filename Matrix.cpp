@@ -278,6 +278,19 @@ T jcho::Matrix<T>::dot(const Matrix<T> &v) const {
 
 
 template<class T>
+T jcho::Matrix<T>::length() const {
+	AssertIsVector();
+	double sum = 0;
+	if (m() == 1)
+		for(int jj=0; jj<n(); jj++)
+			sum += get(0, jj) * get(0, jj);
+	else
+		for(int ii=0; ii<m(); ii++)
+			sum += get(ii, 0) * get(ii, 0);
+	return sqrt(sum);  
+}
+
+template<class T>
 jcho::Matrix<T> jcho::Matrix<T>::cross(const Matrix &v) const {
 	AssertSameDimensions(v);
 	AssertIsVector();

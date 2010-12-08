@@ -132,6 +132,9 @@ namespace jcho {
 		// Returns the dot product of this and v, both of which must be vectors with the same dimensions.
 		T dot(const Matrix<T> &v) const;
 
+    // Return the euclidean length of the vector
+    T length() const;
+
 		// Returns this x v. this and v must both have the same dimensions and be 1x3 or 3x1 matrices.
 		Matrix<T> cross(const Matrix<T> &v) const;
 
