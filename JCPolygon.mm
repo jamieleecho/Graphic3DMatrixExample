@@ -135,7 +135,7 @@ jcho::Matrix<double> makeRotationMatrixZ(double theta) {
 
 - (NSComparisonResult)compare:(id)otherObject {
   JCPolygon *polygon = otherObject;
-  if ([polygon points].size() < 0) return NSOrderedAscending;
+  if ([polygon points].size() <= 0) return NSOrderedAscending;
   double z0 = [self points][0].get(2, 0);
   double z1 = [polygon points][0].get(2, 0);
   if (z0 == z1) return NSOrderedSame;

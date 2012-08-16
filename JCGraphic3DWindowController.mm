@@ -7,7 +7,7 @@
 //
 
 #import "JCGraphic3DWindowController.h"
-#include <FlatCarbon/Events.h>
+#include <Carbon/Carbon.h>
 
 @implementation JCGraphic3DWindowController
 
