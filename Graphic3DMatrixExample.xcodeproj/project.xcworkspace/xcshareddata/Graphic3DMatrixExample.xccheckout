@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ECEF1E7F-60A3-4FC7-B9B7-C718615CADCC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Graphic3DMatrixExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9B7FBE49244586D8DD9A59926AC8C3EE139FA180</key>
+		<string>https://github.com/jamieleecho/Graphic3DMatrixExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Graphic3DMatrixExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9B7FBE49244586D8DD9A59926AC8C3EE139FA180</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jamieleecho/Graphic3DMatrixExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9B7FBE49244586D8DD9A59926AC8C3EE139FA180</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9B7FBE49244586D8DD9A59926AC8C3EE139FA180</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Graphic3DMatrixExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

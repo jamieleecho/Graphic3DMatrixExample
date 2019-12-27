@@ -38,8 +38,7 @@
 
 -(void)awakeFromNib {
   [super awakeFromNib];
-  [[super window] setPreferredBackingLocation:NSWindowBackingLocationVideoMemory];
-  timer = [NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(tick:) userInfo:nil repeats:YES];
+  timer = [NSTimer scheduledTimerWithTimeInterval:0.01666666666667 target:self selector:@selector(tick:) userInfo:nil repeats:YES];
   [self becomeFirstResponder];
 }
 
